@@ -30,7 +30,7 @@ export class AppComponent {
       instanceType: 'small',
       name: 'Testing Environment Server',
       status: 'stable',
-      started: new Date(15, 1, 2017)
+      started: new Date(15, 1, 2022)
     }
   ];
 
@@ -38,7 +38,7 @@ export class AppComponent {
     return {
       'list-group-item-success': server.status === 'stable',
       'list-group-item-warning': server.status === 'offline',
-      'list-group-item-danger': server.status === 'critical'
+      'list-group-item-danger': server.status === 'critical',
     };
   }
 

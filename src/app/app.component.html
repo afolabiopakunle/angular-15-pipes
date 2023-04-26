@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container" style="margin-top: 2rem">
   <div class="row">
     <div class="col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
       <ul class="list-group">
@@ -10,7 +10,7 @@
             class="badge">
             {{ server.status }}
           </span>
-          <strong>{{ server.name }}</strong> | {{ server.instanceType }} | {{ server.started }}
+          <strong>{{ server.name }}</strong> | {{ server.instanceType }} | {{ server.started | date }}
         </li>
       </ul>
     </div>
