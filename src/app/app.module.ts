@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialsModule } from './angular-materials/angular-materials.module';
 import { ShortenPipe } from './shorten.pipe';
+import { ReversePipe } from './reverse.pipe';
 
 @NgModule({
   imports: [
@@ -13,7 +14,7 @@ import { ShortenPipe } from './shorten.pipe';
     BrowserAnimationsModule,
     AngularMaterialsModule,
   ],
-  declarations: [AppComponent, ShortenPipe],
+  declarations: [AppComponent, ShortenPipe, ReversePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
