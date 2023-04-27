@@ -22,6 +22,12 @@ export class AppComponent {
     },
     {
       instanceType: 'small',
+      name: 'Zonal Testing Environment Server',
+      status: 'stable',
+      started: new Date(15, 1, 2022)
+    },
+    {
+      instanceType: 'small',
       name: 'Development Server',
       status: 'offline',
       started: new Date(15, 1, 2017)

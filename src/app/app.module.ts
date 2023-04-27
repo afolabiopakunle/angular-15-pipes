@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialsModule } from './angular-materials/angular-materials.module';
 import { ShortenPipe } from './shorten.pipe';
 import { ReversePipe } from './reverse.pipe';
+import { SortPipe } from './sort.pipe';
 
 @NgModule({
   imports: [
@@ -14,7 +15,7 @@ import { ReversePipe } from './reverse.pipe';
     BrowserAnimationsModule,
     AngularMaterialsModule,
   ],
-  declarations: [AppComponent, ShortenPipe, ReversePipe],
+  declarations: [AppComponent, ShortenPipe, ReversePipe, SortPipe,],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
